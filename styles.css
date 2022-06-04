@@ -107,7 +107,7 @@ a {
   margin-bottom: 10px;
 }
 
-.projects > a {
+.projects > ul > li > a {
   color: rgb(5, 120, 162);
   text-decoration: none;
 }
