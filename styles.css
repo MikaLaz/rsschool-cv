@@ -1,0 +1,129 @@
+:root {
+  box-sizing: border-box;
+}
+
+*,
+::before,
+::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "ABeeZee", sans-serif;
+  color: rgb(5, 120, 162);
+  
+}
+
+h2,
+h3 {
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+a {
+  color: #f7f7f5;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.conteiner {
+  display: flex;
+  max-width: 1080px;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin: 0 auto;
+  
+  
+}
+
+.nav-menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  background-color: rgb(5, 120, 162);
+  height: 70px;
+}
+
+.nav-menu-item {
+  list-style-type: none;
+  margin-left: 15px;
+  text-transform: uppercase;
+}
+
+.main-wrapper {
+  display: flex;
+  min-height: calc(100vh - 150px);
+  
+}
+
+.introduse {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 200px;
+  margin: 0 auto;
+}
+
+.introduse > h1 {
+  text-align: center;
+}
+
+.contacts {
+  display: flex;
+  justify-content: space-around;
+  padding-left: 0;
+}
+
+.contacts > li {
+  list-style: none;
+}
+
+.avatar {
+  max-width: 220px;
+  border-radius: 30%;
+  box-shadow: 0 0 8px 8px rgb(255, 255, 255) inset;
+}
+
+.wrapper {
+  width: 720px;
+}
+
+.link {
+  color: rgb(5, 120, 162);
+ }
+
+.contact-icon {
+  width: 45px;
+  height: 45px;
+}
+
+.projects {
+  margin-bottom: 10px;
+}
+
+.projects > ul > li > a {
+  color: rgb(5, 120, 162);
+  text-decoration: none;
+}
+
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(5, 120, 162);
+  height: 70px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #f9f9d9;
+}
+
+.footer-icon {
+  width: 5%;
+}
