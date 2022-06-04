@@ -9,6 +9,8 @@
 }
 
 body {
+  margin: 0;
+  padding: 0;
   font-family: "ABeeZee", sans-serif;
   color: rgb(5, 120, 162);
 }
@@ -22,6 +24,7 @@ h3 {
 
 a {
   color: #f9f9d9;
+  text-decoration: none;
 }
 
 .conteiner {
@@ -30,10 +33,10 @@ a {
   flex-wrap: wrap;
   flex-direction: column;
   margin: 0 auto;
-  background-color: #f9f9d9;
+  
 }
 
-.nav__menu {
+.nav-menu {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -44,18 +47,15 @@ a {
   height: 70px;
 }
 
-.nav__menu-item {
+.nav-menu {
   list-style-type: none;
   margin-left: 15px;
   text-transform: uppercase;
 }
 
-.nav__menu-item > a {
-  text-decoration: none;
-}
-
-.main__wrapper {
+.main-wrapper {
   display: flex;
+  min-height: calc(100vh - 150px);
 }
 
 .introduse {
