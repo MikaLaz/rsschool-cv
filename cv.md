@@ -20,3 +20,9 @@ return func(...args);   // ...
 ```
 ## **Experience**
 * __project__ - Portfolio <https://rolling-scopes-school.github.io/mikalaz-JSFEPRESCHOOL/portfolio/>
+## **Education**
+* __University__: Kuban State University;
+* __Courses__: 
+    + JAVASCRIPT СТАРТОВЫЙ <https://itvdn.com/ru/video/javascript-starter>;
+    + JS/FE PRE-SCHOOL 2022Q2 <https://rs.school/js-stage0/>.
+## **English**: __A1__ 
