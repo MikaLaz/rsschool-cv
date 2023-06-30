@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./normalize.css">
+  <link rel="icon" href="assets/favicon.ico">
+  <title>CV Mariya Ku4ma</title>
+</head>
+
+<body>
+  <div class="container">
+    <header class="header">
+
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-list_item">
+            <a href="#section-about" class="nav-list_item__link">About me</a>
+          </li>
+          <li class="nav-list_item">
+            <a href="#card-edu" class="nav-list_item__link">Education</a>
+          </li>
+          <li class="nav-list_item">
+            <a href="#card-skills" class="nav-list_item__link">Skills</a>
+          </li>
+          <li class="nav-list_item">
+            <a href="#card-experience" class="nav-list_item__link">Experience</a>
+          </li>
+          <li class="nav-list_item">
+            <a href="#card-code" class="nav-list_item__link">Code Example</a>
+          </li>
+          <li class="nav-list_item">
+            <a href="#contacts" class="nav-list_item__link">Contacts</a>
+          </li>
+        </ul>
+      </nav>
+
+    </header>
+    <main class="main">
+
+      <section class="section-title">
+        <h1 class="section-title_title">Mariya Kuchma</h1>
+        <hr>
+        <span class="section-title_desc">beginner frontend developer</span>
+      </section>
+
+      <section class="section-about" id="section-about">
+
+        <h2 class="section-about_title">
+          About me
+        </h2>
+        <p class="section-about_description">
+
+          I want to become a professional front-end developer and work with useful projects. To do this, my first goal is to learn how to quickly and efficiently layout websites, my second goal is to learn how to write clean, structured and understandable JavaScript code. Now I am a federal government employee, I work with electronic signatures.
+        </p>
+
+        <img src="./assets/img/my_photo.jpg" alt="My avatar" class="my-avatar">
+
+      </section>
+
+      <section class="section-edu">
+        <div class="cv-cards" id="card-edu">
+          <h2 class="cv-cards_title">
+            Education
+          </h2>
+          <ul class="cv-cards_list">
+            <li class="cv-cards__items">University: Kuban State University;</li>
+            <li class="cv-cards__items">Courses:</li>
+            <li class="cv-cards__items">
+              <ul class="cv-cards__items-list">
+                <li class="items-list___items">
+                  <a href="https://itvdn.com/ru/video/javascript-starter" class="items-list__link">JAVASCRIPT
+                    СТАРТОВЫЙ</a>
+                </li>
+                <li class="items-list___items">
+                  <a href="https://rs.school/js-stage0" class="items-list__items">JS/FE PRE-SCHOOL 2022Q2 </a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <div class="cv-cards" id="card-skills">
+          <h2 class="cv-cards_title">
+            Skills
+          </h2>
+          <ul class="cv-cards_list">
+            <li class="cv-cards__items">HTML, CSS</li>
+            <li class="cv-cards__items">JavaScript</li>
+            <li class="cv-cards__items">Wordpress</li>
+            <li class="cv-cards__items">Git</li>
+            <li class="cv-cards__items">English - <b>A1</b></li>
+          </ul>
+        </div>
+        <div class="cv-cards" id="card-experience">
+          <h2 class="cv-cards_title">
+            Experience
+          </h2>
+          <ul class="cv-cards_list">
+            <li class="cv-cards__items">
+              <a href="https://rolling-scopes-school.github.io/mikalaz-JSFEPRESCHOOL/portfolio/"
+                class="cv-cards__items-link">Portfolio</a>
+            </li>
+            <!-- <li class="cv-cards__items">
+              <a href="https://rolling-scopes-school.github.io/mikalaz-JSFEPRESCHOOL2022Q2/travel"
+                class="cv-cards__items-link">Travel</a>
+
+            </li> -->
+            <li class="cv-cards__items">
+              <a href="https://rolling-scopes-school.github.io/mikalaz-JSFEPRESCHOOL2022Q2/momentum/"
+                class="cv-cards__items-link">Momentum</a>
+            </li>
+          </ul>
+        </div>
+        <div class="cv-cards code" id="card-code">
+          <h2 class="cv-cards_title">
+            Code Example
+          </h2>
+          <p>
+            <a href="https://www.codewars.com/kata/5262119038c0985a5b00029f" class="cv-cards_link-code">My solution for
+              Codewars Cata "Is a number prime?"</a>
+          </p>
+          <code>
+           function isPrime(num) {
+            if (num &lt; 2) 
+            {return false}
+             for (i = 2; i &lt; Math.trunc
+             (Math.sqrt(num)) + 1; i++) 
+             {
+              if (num % i === 0) {
+               return false;
+              }
+            }
+            return true;
+         }
+          </code>
+        </div>
+      </section>
+
+    </main>
+    <footer class="footer">
+
+      <ul class="footer-list">
+        <li class="footer-list_item" id="contacts">
+          <a href="https://discordapp.com/users/803989380762828801" title="discord MikaLaz">
+            <img src="./assets/svg/discord.svg" alt="discord account link" class="fiiter-icon">
+          </a>
+        </li>
+        <li class="footer-list_item">
+          <a href="https://github.com/MikaLaz" title="github MikaLaz">
+            <img src="./assets/svg/github.svg" alt="github account link" class="fiiter-icon">
+          </a>
+        </li>
+
+        <li class="footer-list_item data">
+          <data value="2022">2022 December</data>
+        </li>
+        <li class="footer-list_item">
+          <a href="https://rs.school/js/" title="rsschool">
+            <img src="./assets/img/rs_school_js.png" alt="rsschool link" class="footer-icon">
+          </a>
+        </li>
+      </ul>
+
+    </footer>
+  </div>
+<script src="./script.js"></script>
+</body>
+
+
+</html>
