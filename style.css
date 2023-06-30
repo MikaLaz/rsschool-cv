@@ -41,7 +41,7 @@ body {
   font-family: 'Dosis', 'TT Polls Script', sans-serif;
   min-width: 360px;
   height: 100vh;
-  background-color: #c9c4c8;
+  background-color: #607483;
 }
 
 .container {
@@ -57,7 +57,7 @@ li {
 }
 
 .main {
-  border: solid 1px #bd7bc8;  
+  border: solid 1px #f2eff3;  
   min-height: calc(100vh - 70px);
 }
 
@@ -140,14 +140,14 @@ h1, h2 {
  
 .my-avatar {
   max-width: 109px;
-  max-height: 121px;
+  max-height: 109px;
 }
 
 .cv-cards {
   min-width: 95%;
-  border-left: solid .5px #bd7bc8; 
-  border-top: solid .5px #bd7bc8; 
-  border-bottom: solid .5px #bd7bc8;  
+  border-left: solid .5px #fbf8fc; 
+  border-top: solid .5px #fbf8fc; 
+  border-bottom: solid .5px #fbf8fc;  
   padding: 20px;
 }
 
@@ -155,7 +155,8 @@ h1, h2 {
   text-transform: uppercase;
   padding: 0 20px;
 }
-.cv-cards_title, .section-about_title {
+.cv-cards_title, 
+.section-about_title {
   font-size: 1.2em;
 }
 .cv-cards_list {
@@ -174,6 +175,9 @@ h1, h2 {
 .code {
   display: flex;
   flex-wrap: wrap;
+}
+.footer {
+  color: #f2eff3;
 }
 .footer-icon {
   width: 60px;
