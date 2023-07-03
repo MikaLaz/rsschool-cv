@@ -15,9 +15,9 @@
 }
 
 @font-face {
-  font-family: 'TT Polls Script';
-   src: local('TT Polls Script Regular'), local('TTPollsScript-Regular'),
-        url('./assets/fonts/TTPollsScript-Regular.ttf') format('truetype');
+  font-family: 'Aqum 2 Small caps';
+   src: local('Aqum 2 Small caps'), local('Aqum 2 Small caps'),
+        url('./assets/fonts/Aqum\ 2\ Small\ caps.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
 }
@@ -38,7 +38,7 @@ html {
 }
 
 body {
-  font-family: 'Dosis', 'TT Polls Script', sans-serif;
+  font-family: 'Dosis', 'Aqum 2 Small caps', sans-serif;
   min-width: 360px;
   height: 100vh;
   background-color: #607483;
@@ -59,10 +59,12 @@ li {
 
 .main {
   border: solid 1px #f2eff3;  
-  min-height: 100vh;
+  min-height: calc(100% - 70px);
 }
 
 a {
+  font-family: 'Aqum 2 Small caps';
+  font-size: small;
   text-decoration: none;
   color: white;
   transition: 0.6s linear;
@@ -98,6 +100,7 @@ h1, h2 {
 }
 
 .footer {
+  font-family: 'Aqum 2 Small caps';
    color: #f2eff3;
   height: 70px;
   display: flex;
@@ -123,8 +126,9 @@ h1, h2 {
 }
 
 .section-about_description {
-  font-family: 'TT Polls Script';
-  max-width: 60%;
+  font-family: 'Aqum 2 Small caps';
+  font-size: smaller;
+  max-width: 70%;
   text-align:justify;
 }
 
@@ -157,16 +161,17 @@ h1, h2 {
 }
 
 .nav-list_item {
-  text-transform: uppercase;
-  padding: 0 20px;
+   padding: 0 20px;
 }
 
 .cv-cards_title, 
 .section-about_title {
-  font-size: 1.2em;
+    font-size: 1.2em;
 }
 
 .cv-cards_list {
+  font-family: 'Aqum 2 Small caps';
+  text-transform: lowercase;
   padding-left: 25%;
 }
 
