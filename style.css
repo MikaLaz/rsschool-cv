@@ -24,6 +24,7 @@
 
 :root {
   box-sizing: border-box;
+  
 }
 
 *, ::before, ::after {
@@ -41,7 +42,7 @@ body {
   font-family: 'Dosis', 'Aqum 2 Small caps', sans-serif;
   min-width: 360px;
   height: 100vh;
-  background-color: #607483;
+    background-color: #607483;
   color: #f2eff3c4;
 }
 
@@ -55,6 +56,7 @@ body {
 
 li {
   list-style-type: "\1F588";
+  
 }
 
 .main {
