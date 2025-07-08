@@ -5,14 +5,14 @@
 * _Github_: [MikaLaz](https://github.com/MikaLaz)
 
 ## **About me**
-__I work as a government employee in the federal service, my job is related to the maintenance of equipment in the department and consulting services to clients on the operation of government information systems. I've loved layout since I was a student. I've been working with Wordpress for a while, setting up templates for websites. I want to develop in this direction, to master a deeper understanding of frontend development.__
+_I work as a government employee in the federal service, my job is related to the maintenance of equipment in the department and consulting services to clients on the operation of government information systems. I've loved layout since I was a student. I've been working with Wordpress for a while, setting up templates for websites. I want to develop in this direction, to master a deeper understanding of frontend development._
 
 
 ## **Skills**
-1. :star: :star: HTML, CSS 
-2. :star: JS(basic) 
-3. :star: :star: Wordpress 
-4. :star: Git 
+1. HTML, CSS ✅ ✅
+2. JS(basic) ✅
+3. Wordpress ✅✅✅
+4. Git       ✅
 
 
 ## **Code Example**
@@ -52,4 +52,4 @@ function adjacentElementsProduct(array) {
     + JS/FE PRE-SCHOOL 2022Q2 <https://rs.school/js-stage0/>.
 
 
-## **English**: __A1__ (I learn english with my family in App duolingo)
+## **English**: __A1__ ######(I learn english with my family in App Duolingo)
