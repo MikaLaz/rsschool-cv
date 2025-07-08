@@ -35,3 +35,13 @@ function adjacentElementsProduct(array) {
 
 ```
 ---
+
+## **Experience**
+* __project__ - [Portfolio](https://rolling-scopes-school.github.io/mikalaz-JSFEPRESCHOOL/portfolio/)
+* __project__ - [Shelter](https://rolling-scopes-school.github.io/mikalaz-JSFEPRESCHOOL2024Q2/shelter/)
+---
+
+## **Education**
+* __University__: Kuban State University, economic security;
+* __College__: Maikop Polytechnic College, Computer Engineering and Automated systems software.
+---
