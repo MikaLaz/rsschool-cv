@@ -52,4 +52,4 @@ function adjacentElementsProduct(array) {
     + JS/FE PRE-SCHOOL 2022Q2 <https://rs.school/js-stage0/>.
 
 
-## **English**: __A1__ ######(I learn english with my family in App Duolingo)
+## **English**: __A1__ _(I learn english with my family in App Duolingo)_
