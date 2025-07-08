@@ -16,3 +16,22 @@ __I work as a government employee in the federal service, my job is related to t
 3. Wordpress :+1: :+1:
 4. Git :+1:
 ---
+
+## **Code Example**
+__From__[Codewars.com](https://www.codewars.com/) task [Maximum Product](https://www.codewars.com/kata/5a4138acf28b82aa43000117/javascript)
+__Solution:__
+
+```
+function adjacentElementsProduct(array) {
+    let multyArr = [];
+      let multy;
+      for (let i = 0; i < array.length - 1; i++) {
+        multy = array[i] * array[i + 1];
+        multyArr.push(multy);
+
+      }
+      return Math.max.apply(null, multyArr);
+}
+
+```
+---
