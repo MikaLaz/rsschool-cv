@@ -44,4 +44,9 @@ function adjacentElementsProduct(array) {
 ## **Education**
 * __University__: Kuban State University, economic security;
 * __College__: Maikop Polytechnic College, Computer Engineering and Automated systems software.
+* __Courses__: 
+    + JAVASCRIPT СТАРТОВЫЙ <https://itvdn.com/ru/video/javascript-starter>;
+    + JS/FE PRE-SCHOOL 2022Q2 <https://rs.school/js-stage0/>.
 ---
+
+## **English**: __A1__ (I learn english with my family in App duolingo)
