@@ -78,3 +78,28 @@ a:hover {
 h1, h2 {
   text-transform: uppercase;
 }
+
+.items-list-items, .footer-list-item, .nav-list-item {
+  list-style-type: none;
+}
+
+.header {
+  min-height: 20px;
+  padding: 20px 20px;
+}
+
+.nav-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: end;
+  align-items: center;
+}
+
+.my-avatar {
+  max-width: 122px;
+  max-height: 140px;
+}
+
+.nav-list-item {
+   padding: 0 20px;
+}
