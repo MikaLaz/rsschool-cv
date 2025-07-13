@@ -1,0 +1,80 @@
+@font-face {
+  font-family: 'Dosis';
+   src: local('Dosis SemiBold'), local('Dosis-SemiBold'),
+        url('./assets/fonts/Dosis-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Dosis';
+   src: local('Dosis Regular'), local('Dosis-Regular'),
+        url('./assets/fonts/Dosis-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Aqum 2 Small caps';
+   src: local('Aqum 2 Small caps'), local('Aqum 2 Small caps'),
+        url('./assets/fonts/Aqum\ 2\ Small\ caps.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root {
+  box-sizing: border-box;
+}
+
+*, ::before, ::after {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Dosis', 'Aqum 2 Small caps', sans-serif;
+  min-width: 360px;
+  height: 100vh;
+  background-color: #607483;
+  color: #f2eff3c4;
+}
+
+.container {
+  height: 100%;
+  width:100%;
+  max-width:1440px;
+  margin: 0 auto;
+  padding: 0 10%;
+ }
+
+li {
+  list-style-type: "\1F588";
+}
+
+.main {
+  border: solid 1px #f2eff3;
+  min-height: calc(100% - 70px);
+}
+
+a {
+  font-family: 'Aqum 2 Small caps';
+  font-size: small;
+  text-decoration: none;
+  color: white;
+  transition: 0.6s linear;
+  cursor: pointer;
+}
+
+a:hover {
+  color: black;
+}
+
+h1, h2 {
+  text-transform: uppercase;
+}
