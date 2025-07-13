@@ -128,7 +128,7 @@ h1, h2 {
   font-weight: 550;
 }
 
-.contact-list-link {
+.contact-list-link, .exp-item-link {
   color: #607483;
 }
 
