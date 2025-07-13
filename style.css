@@ -1,0 +1,206 @@
+@font-face {
+  font-family: 'Dosis';
+   src: local('Dosis SemiBold'), local('Dosis-SemiBold'),
+        url('./assets/fonts/Dosis-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Dosis';
+   src: local('Dosis Regular'), local('Dosis-Regular'),
+        url('./assets/fonts/Dosis-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Aqum 2 Small caps';
+   src: local('Aqum 2 Small caps'), local('Aqum 2 Small caps'),
+        url('./assets/fonts/Aqum\ 2\ Small\ caps.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root {
+  box-sizing: border-box;
+}
+
+*, ::before, ::after {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Dosis', 'Aqum 2 Small caps', sans-serif;
+  min-width: 360px;
+  height: 100vh; 
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+  max-width:1440px;
+  margin: 0 auto;
+  padding: 0 5%;
+  background-color: #607483;
+  color: #f2eff3c4;
+  -webkit-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+  box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+ }
+
+ li {
+  list-style-type: "\1F588";
+}
+
+.main {
+  display: flex;
+  /* border: solid 1px #f2eff3; */
+  /* min-height: calc(100% - 70px); */
+}
+
+a {
+  font-family: 'Aqum 2 Small caps';
+  font-size: small;
+  text-decoration: none;
+  color: white;
+  transition: 0.6s linear;
+  cursor: pointer;
+}
+
+a:hover {
+  color: black;
+}
+
+h1, h2 {
+  text-transform: uppercase;
+}
+
+.items-list-items, .footer-list-item, .nav-list-item, .contact-list-item {
+  list-style-type: none;
+}
+
+.header {
+  min-height: 20px;
+  padding: 20px 20px;
+}
+
+.nav-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: end;
+  align-items: center;
+}
+
+.my-avatar {
+  max-width: 50%;
+}
+
+.nav-list-item {
+   padding: 0 20px;
+}
+
+.article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  padding: 4%;
+  background-color: #f2eff3c4;
+  color: #607483;
+}
+
+.article-title {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.article-title-title {
+  font-size: 1.5em;
+  letter-spacing: .2rem;
+}
+
+.article-subtitle {
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  padding-bottom: 10px;
+}
+
+.article-title-desc {
+  font-size: 1.2em;
+  font-weight: 550;
+}
+
+.contact-list-link, .exp-item-link {
+  color: #607483;
+}
+
+.contact-list-link {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.article-title img {
+  border-radius: 50%;
+  box-shadow:
+  inset 0 -3em 3em rgba(0,0,0,0.1),
+        0.3em 0.3em 1em rgba(0,0,0,0.3);
+}
+
+.article-list {
+  padding-left: 20%;
+}
+
+.section {
+  display: flex;
+  flex-direction: column; 
+}
+
+.about-desc {
+  font-family: 'Aqum 2 Small caps';
+  font-style: italic;
+  font-size: smaller;
+  max-width: 90%;
+  text-align:justify;
+  padding-left: 25%;
+}
+
+.about, .edu, .code {
+  min-width: 95%;
+  padding: 20px;
+}
+
+.edu-list {
+  font-family: 'Aqum 2 Small caps';
+  text-transform: lowercase;
+  padding-left: 25%;
+}
+
+.edu-item-sublist, .code-text {
+  padding-left: 25%;
+}
+
+/* .footer {
+  border: solid 1px #f2eff3;
+} */
+
+.footer-list {
+  font-family: 'Aqum 2 Small caps';
+  display: flex;
+  justify-content: flex-end;
+  gap: 1%;
+  align-items: center;
+  }
+
+  .footer-icon {
+    width: 48px;
+    border-radius: 50%;
+  }
