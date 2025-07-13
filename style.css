@@ -62,7 +62,7 @@ body {
 
 .main {
   display: flex;
-  border: solid 1px #f2eff3;
+  /* border: solid 1px #f2eff3; */
   /* min-height: calc(100% - 70px); */
 }
 
@@ -187,3 +187,20 @@ h1, h2 {
 .edu-item-sublist, .code-text {
   padding-left: 25%;
 }
+
+/* .footer {
+  border: solid 1px #f2eff3;
+} */
+
+.footer-list {
+  font-family: 'Aqum 2 Small caps';
+  display: flex;
+  justify-content: flex-end;
+  gap: 1%;
+  align-items: center;
+  }
+
+  .footer-icon {
+    width: 48px;
+    border-radius: 50%;
+  }
