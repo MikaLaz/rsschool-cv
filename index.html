@@ -4,8 +4,132 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+     <link rel="icon" href="assets/favicon.ico">
     <title>CV MK</title>
 </head>
-<body>    
-</body>
+<body>
+   <div class="container">
+    <header class="header">
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-list-item"><a href="#about" class="nav-list-item-link">About me</a></li>
+            <li class="nav-list-item"><a href="#edu" class="nav-list-item-link">Education</a></li>
+            <li class="nav-list-item"><a href="#skills" class="nav-list-item-link">Skills</a></li>
+            <li class="nav-list-item"><a href="#experience" class="nav-list-item-link">Experience</a></li>
+            <li class="nav-list-item"><a href="#code" class="nav-list-item-link">Code Example</a></li>
+            <li class="nav-list-item"><a href="#contacts" class="nav-list-item-link">Contacts</a></li>
+          </ul>
+        </nav>
+    </header>
+
+    <main class="main">
+    <article class="article">
+      <div class="article-title">
+        <img class="my-avatar" src="./assets/img/my-avatar_n.jpg" alt="My avatar">
+        <h1 class="article-title-title">Mariya Kuchma</h1>
+      </div>
+      <div class="contact">
+        <h3 class="contact-title article-subtitle" id="contacts">Contacts</h3>
+        <ul class="contact-list article-list">
+          <li class="contact-list-item">
+            <a class="contact-list-link" href="mailto:u4eba2013@gmail.com" title="email" target="_blank">
+              <img class="contact-icon" src="./assets/svg/mail.svg" alt="gmail contact" > u4eba2013@gmail.com
+            </a>
+          </li>
+          <li class="contact-list-item">
+            <a class="contact-list-link" href="https://t.me/itsCATch22" title="telegram MK" target="_blank">
+              <img class="contact-icon" src="./assets/svg/telegram.svg" alt="telegram contact">MK
+            </a>
+          </li>
+          <li class="contact-list-item">
+            <a class="contact-list-link" href="https://discordapp.com/users/803989380762828801" title="discord MikaLaz" target="_blank">
+            <img class="contact-icon" src="./assets/svg/discord.svg" alt="discord account link"> Mika
+          </a>
+          </li>
+        </ul>
+      </div>
+      <div class="skills" id="skills">
+        <h3 class="skills-title article-subtitle">Skills</h3>
+          <ul class="skills-list article-list">
+            <li class="skills-list-item">HTML, CSS</li>
+            <li class="skills-list-item">JavaScript</li>
+            <li class="skills-list-item">Wordpress</li>
+            <li class="skills-list-item">Git</li>
+            <li class="skills-list-item">English - <b>A1</b></li>
+          </ul>
+      </div>
+      <div class="exp">
+        <h3 class="exp-title article-subtitle" id="experience">Experience</h3>
+          <ul class="exp-list article-list">
+            <li class="exp-list-item">
+              <a class="exp-item-link" href="https://rolling-scopes-school.github.io/mikalaz-JSFEPRESCHOOL/portfolio/" target="_blank">Portfolio</a>
+            </li>
+            <li class="exp-list-item">
+              <a class="exp-item-link" href="https://rolling-scopes-school.github.io/mikalaz-JSFEPRESCHOOL2022Q4/plants/" target="_blank"> Plants</a>
+            </li>
+            <li class="exp-list-item">
+              <a class="exp-item-link" href="https://rolling-scopes-school.github.io/mikalaz-JSFEPRESCHOOL2022Q2/momentum/" target="_blank">Momentum</a>
+            </li>
+            <li class="exp-list-item">
+              <a class="exp-item-link" href="https://rolling-scopes-school.github.io/mikalaz-JSFEPRESCHOOL2024Q2/shelter/" target="_blank">Shelter</a>
+            </li>
+          </ul>
+      </div>
+    </article>
+  <section class="section">
+    <div class="about" id="about">
+      <h2 class="about-title">About me</h2>
+      <p class="about-desc">I work now as a government employee in the federal service, my job is related to the maintenance of equipment in the department and consulting services to clients on the operation of government information systems. I've loved layout since I was a student. I've been working with Wordpress for a while, setting up templates for websites. I want to develop in this direction, to master a deeper understanding of frontend development.</p>
+    </div>
+     <div class="edu" id="edu">
+          <h2 class="edu-title">Education</h2>
+          <ul class="edu-list">
+            <li class="edu-list-item">University: Kuban State University, Economic security;</li>
+             <li class="edu-list-item">Maikop Polytechnic College, Computer Engineering and Automated systems software;</li>
+            <li class="edu-list-item">Courses:
+              <ul class="edu-item-sublist">
+                <li class="edu-item-sublist-item"><a class="sublist-link" href="https://itvdn.com/ru/video/javascript-starter" target="_blank"> JavaScript Starter</a></li>
+                <li class="edu-item-sublist-item"><a class="sublist-link" href="https://rs.school/js-stage0" target="_blank">JS/FE Pre-School 2022Q2 </a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+          <div class="code" id="code">
+          <h2 class="code-title">Code Example</h2>
+          <div class="code-text">
+            <a class="code-link" href="https://www.codewars.com/kata/5a4138acf28b82aa43000117/javascript" target="_blank">Cata "Maximum Product"</a>
+            <p>Solution:</p>
+             <pre>
+              function adjacentElementsProduct(array) {
+                let multyArr = [];
+                let multy;
+                for (let i = 0; i &lt; array.length - 1; i++) {
+                multy = array[i] * array[i + 1];
+                multyArr.push(multy);
+                }
+                return Math.max.apply(null, multyArr);
+              }
+            </pre>
+          </div>
+        </div>
+  </section>
+  </main>
+   <footer class="footer">
+      <ul class="footer-list">
+        <li class="footer-list-item data">
+          <data value="2025">2025 July</data>
+        </li>
+          <li class="footer-list-item">
+          <a href="https://github.com/MikaLaz" title="github MikaLaz" target="_blank">
+            <img class="footer-icon" src="./assets/img/github.gif" alt="github account link">
+          </a>
+       <li class="footer-list-item">
+          <a href="https://rs.school/js/" title="rsschool" target="_blank">
+            <img class="footer-icon" src="./assets/img/rs_school_jss.png" alt="rsschool link">
+          </a>
+        </li>
+      </ul>
+    </footer>
+  </div>
+ </body>
 </html>
