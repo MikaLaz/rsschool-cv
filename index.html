@@ -98,6 +98,24 @@
             </li>
           </ul>
         </div>
+          <div class="code" id="code">
+          <h2 class="code-title">Code Example</h2>
+          <div class="code-text">
+            <a class="code-link" href="https://www.codewars.com/kata/5a4138acf28b82aa43000117/javascript">Cata "Maximum Product"</a>
+            <p>Solution:</p>
+             <pre>
+              function adjacentElementsProduct(array) {
+                let multyArr = [];
+                let multy;
+                for (let i = 0; i < array.length - 1; i++) {
+                multy = array[i] * array[i + 1];
+                multyArr.push(multy);
+                }
+                return Math.max.apply(null, multyArr);
+              }
+            </pre>
+          </div>
+        </div>
   </section>
     </main>
   </div>

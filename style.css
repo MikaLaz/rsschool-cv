@@ -161,20 +161,19 @@ h1, h2 {
 
 .section {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;  
+  flex-direction: column; 
 }
 
 .about-desc {
   font-family: 'Aqum 2 Small caps';
   font-style: italic;
   font-size: smaller;
-  max-width: 80%;
+  max-width: 90%;
   text-align:justify;
   padding-left: 25%;
 }
 
-.about, .edu {
+.about, .edu, .code {
   min-width: 95%;
   padding: 20px;
 }
@@ -185,6 +184,6 @@ h1, h2 {
   padding-left: 25%;
 }
 
-.edu-item-sublist {
-  padding-left: 20%;
+.edu-item-sublist, .code-text {
+  padding-left: 25%;
 }
