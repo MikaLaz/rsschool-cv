@@ -108,6 +108,10 @@ h1, h2 {
 }
 
 .article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px; 
   width: 30%;
   padding: 4%;
   background-color: #f2eff3c4;
@@ -123,6 +127,11 @@ h1, h2 {
   letter-spacing: .2rem;
 }
 
+.article-subtitle {
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+}
+
 .article-title-desc {
   font-size: 1.2em;
   font-weight: 550;
@@ -132,6 +141,12 @@ h1, h2 {
   color: #607483;
 }
 
+.contact-list-link {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
 .article-title img {
   border-radius: 50%;
   box-shadow:
@@ -139,3 +154,6 @@ h1, h2 {
         0.3em 0.3em 1em rgba(0,0,0,0.3);
 }
 
+.article-list {
+  padding-left: 20%;
+}
